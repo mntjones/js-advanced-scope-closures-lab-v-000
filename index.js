@@ -18,5 +18,7 @@ function produceTipCalculator(rate) {
 }
 
 function createDriver() {
-  
+  return class Drvier {
+    
+  }
 }
