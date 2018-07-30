@@ -3,7 +3,7 @@ function produceDrivingRange(blocks) {
     const distance = Math.abs(starting-ending);
     
     if (distance > blocks) {
-    return `${distance} blocks out of range`;
+    return `${distance-blocks} blocks out of range`;
    }
     else {return `within range by ${distance}`;}
     
