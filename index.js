@@ -1,6 +1,8 @@
 function produceDrivingRange(blocks) {
-  return function(starting, ending) {if (Math.abs(starting-ending) > blocks) {
-    return false;
+  return function(starting, ending) {
+    const distance = Math.abs(starting-ending);
+    if (distance > blocks) {
+    return ``;
   }
   else {return true;}
     
