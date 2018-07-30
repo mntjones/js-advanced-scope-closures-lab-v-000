@@ -1,5 +1,5 @@
 function produceDrivingRange(blocks) {
-  return function() {if (blocks > 10) {
+  return function(starting, ending) {if (Math.abs(starting-ending) > blocks) {
     return false;
   }
   else {return true;}
